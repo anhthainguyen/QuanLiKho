@@ -11,3 +11,6 @@ Các file liên quan View thì toàn bộ sẽ nằm bên ngoài
 
   MainViewModel.cs sẽ là datacontext cho MainView
 
+Grid trong wpf:
+
+Dùng ShowDialog() ---> Window kia sẽ không thể tương tác.
