@@ -10,7 +10,8 @@ namespace QuanLyKho.ViewModel
     {
         public MainViewModel()
         {
-            System.Windows.MessageBox.Show("Thu Nghiem MVVM");
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.ShowDialog();
         }
     }
 }
